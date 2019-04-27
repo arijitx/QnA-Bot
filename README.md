@@ -14,4 +14,4 @@ QnA bot powered by CoQA + BERT
 
 ## Running
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/arijitx/QnA-Bot/master/running.gif)
