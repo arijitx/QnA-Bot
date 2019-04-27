@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>QnA Chat Bot</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/chat_main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="/static/chat_main.js"></script>
+   
+  </head> 
+
+  <body>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-xs-6 chat" >
+      <span style="display:none;" id="bot_id" >{{ bot }}</span>
+      <span style="display:none;" id="bot_im_url" >{{ bot_im }}</span>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+       <img src="{{ bot_im }}" class="img-circle" width="200px" height="200px">
+       <h3> {{ bot }} </h3>
+       <br><br><br><br><br><br><br><br>
+
+       QnA Bot<br>
+       Made with <i class="fas fa-heart" style="font-size:15px;color:red;"></i> at IIT Bombay
+       <br><br>
+       <span href="github.com/arijitx/"><i  class="fab fa-github" style="font-size:40px;"></i></span>
+
+     </center>
+    </div>
+
+    <div class="col-sm-6 col-xs-6 chat" style="overflow: hidden; height: 100%;" tabindex="5001">
+      <div class="col-inside-lg decor-default">
+        <div class="chat-body">
+          <div id="chat-head">
+            
+            
+                <div class="col-sm-6 col-md-6 col-xs-12 image-container" style="width: 20%;">
+                  <div class="avatar">
+                    <img src=" {{ bot_im }}" >
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xs-12" style="vertical-align: middle;height: 40px;width: 80%; text-align: right; line-height: 40px;">  
+
+                  <span id="bot_name"> {{ bot }}</span>
+                </div>
+          </div>
+          <br>
+          <br>
+          <div id="chat-messages" style="overflow: scroll; height: 75%;">
+            
+          </div>
+          <div class="answer-add">
+            <input id="msg" placeholder="Enter your message">
+            <span class="answer-btn answer-btn-2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

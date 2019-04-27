@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>QnA Chat Bot</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/chat_main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/main.js"></script>
+   
+  </head> 
+
+  <body>
+
+    <div class="content container-fluid">
+      <div class="row">
+        <div class="col-sm-4" >
+          <center>
+             
+             <br><br><br><br><br><br><br><br><br><br>
+             QnA Bot<br>
+             Made with <i class="fas fa-heart" style="font-size:15px;color:red;"></i> at IIT Bombay
+             <br><br>
+             <span href="github.com/arijitx/"><i  class="fab fa-github" style="font-size:40px;"></i></span>
+
+           </center>
+        </div>
+        <div class="col-sm-4" >
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Bot Name</label>
+                <input type="text" class="form-control" id="bot_id" placeholder="Bot name without space">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Bot Image URL</label>
+                <input type="text" class="form-control" id="bot_im_url" placeholder="Bot image url">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Model</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>SDBert on CoQA</option>
+                  <option>BERT on SQuAD</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="context_ta">Context</label>
+                <textarea class="form-control" id="context_ta" rows="6"></textarea>
+              </div>
+            </form>
+            <button type="button" class="btn btn-dark" id="create_bot">Create</button>
+        </div>
+        <div class="col-sm-4" >
+          <br><br><br><br><br><br>
+          <h4 id="bot_url"></h4>
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
