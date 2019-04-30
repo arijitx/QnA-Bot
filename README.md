@@ -1,5 +1,5 @@
 # QnA-Bot
-QnA bot powered by CoQA + BERT
+QnA bot powered by CoQA + BERT built in Pytorch. This project was done as course project of EE 763 jointly with [Rakesh](https://github.com/RKhobrag) and [Kuber](https://github.com/kuberg1/)
 
 ## Installation
 
@@ -15,3 +15,5 @@ QnA bot powered by CoQA + BERT
 ## Running
 
 ![alt text](https://raw.githubusercontent.com/arijitx/QnA-Bot/master/running.gif)
+
+
