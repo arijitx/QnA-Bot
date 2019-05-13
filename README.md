@@ -14,6 +14,7 @@ QnA bot powered by CoQA + BERT built in Pytorch. This project was done as course
 
 	python3 server.py
 
+Google Colab [Demo](https://colab.research.google.com/drive/1Alz7NMENYc1S28EqUDwbe7hf1M8HpYSO#scrollTo=vT40VTBxJMlT)
 
 ## Running
 
