@@ -3,8 +3,8 @@ QnA bot powered by CoQA + BERT built in Pytorch. This project was done as course
 
 ## Installation
 
-pytorch-pretrained-BERT version 0.6.1
-torch version 1.0.1.post2
+	pytorch-pretrained-BERT version 0.6.1
+	torch version 1.0.1.post2
 
 	pip3 install torch
 	pip3 install flask
