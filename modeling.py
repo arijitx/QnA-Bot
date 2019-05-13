@@ -32,7 +32,7 @@ import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss
 
-from pytorch_pretrained_bert.file_utils import cached_path, 
+from pytorch_pretrained_bert.file_utils import cached_path
 WEIGHTS_NAME = 'pytorch_model.bin'
 CONFIG_NAME = 'config.json'
 
